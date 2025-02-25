@@ -1,5 +1,7 @@
 # FanChuan: A Multilingual and Graph-Structured Benchmark For Parody Detection and Analysis
 
+https://arxiv.org/abs/2502.16503
+
 Parody is an emerging phenomenon on social media, where people imitate a role or position opposite to their own, often for humor, provocation, or controversy. We built seven parody datasets from both English and Chinese corpora, with 14,758 annotated users and 21,927 annotated comments in total. To provide sufficient context information, we also collect replies and construct user-interaction graphs to provide richer contextual information. With these datasets, we test traditional methods and Large Language Models (LLMs) on three key tasks: (1) parody detection, (2) comment sentiment analysis with parody, and (3) user sentiment analysis with parody. Our extensive experiments reveal that parody-related tasks still remain challenging for all models, and contextual information plays a critical role. Interestingly, we find that, in certain scenarios, traditional sentence embedding methods combined with simple classifiers can outperform advanced LLMs, i.e. DeepSeek-R1 and GPT-o3, highlighting parody as a significant challenge for LLMs.
 
 ## Datasets
@@ -15,5 +17,5 @@ Parody is an emerging phenomenon on social media, where people imitate a role or
 | **Reddit-Trump**  | Trump's rhetoric and speaking style are frequently mimicked by critics using parody. | *"He's been tested—more than anyone, by the best doctors in the world... It’s incredible."* |
 
 
-### The part of code is still being sorted out
+The codes for other methods are still being sorted out and we will update them soon.
 
